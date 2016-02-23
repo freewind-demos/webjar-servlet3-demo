@@ -10,7 +10,7 @@ Then you can visit:
 
 # webjar with servlet 3
 
-`webjar` is supported directly in servlet 3, any files inside `META-INF/resources` of any jars in application classpath are exposed as static resources.
+`webjar` is supported directly in servlet 3, any files inside `META-INF/resources` of any jars in application classpath are exposed as static resources under path `/webjars`.
 
 But the normal gradle `jetty` is used old jetty 6, which doesn't support servlet 3, we need to use an extra [webjars-servlet-2.x](https://github.com/webjars/webjars-servlet-2.x) plugin and do some configuration in `web.xml`, which is not convenient.
 
