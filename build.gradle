@@ -1,6 +1,11 @@
 apply plugin: 'java'
-apply plugin: 'idea'
-apply plugin: 'jetty'
+apply from: 'gretty.plugin'
+
+gretty {
+    // Possible servletContainer values are 'jetty7', 'jetty8', 'jetty9', 'tomcat7', 'tomcat8'. Default is 'jetty9'.
+    servletContainer = 'jetty9'
+    // httpsEnabled = true
+}
 
 repositories {
     mavenCentral()
@@ -12,4 +17,3 @@ dependencies {
             'org.webjars:webjars-servlet-2.x:1.3'
     )
 }
-
