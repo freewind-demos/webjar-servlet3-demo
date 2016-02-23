@@ -14,6 +14,8 @@ Then you can visit:
 
 If you are using a servlet server which is not support with servlet 3, you have to use the `org.webjars:webjars-servlet-2.x:1.3` to make it work, as `web.xml` in this example does.
 
+In this example, we use gradle jetty plugin, which uses [jetty 6.1.25](https://github.com/gradle/gradle/blob/95032b647892dce5593e70e3202edc1b2d0bd31e/gradle/dependencies.gradle#L68), and doesn't support servlet 3.x
+
 # Reference
 
 1. Java project skeleton: 
