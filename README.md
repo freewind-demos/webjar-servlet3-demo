@@ -5,7 +5,6 @@ how to run
 
 Then you can visit:
 
-1. Swagger-UI: `http://localhost:8080/webjar-swagger-ui-demo/webjars/swagger-ui/2.0.12/index.html`
 2. Bootstrap things: `http://localhost:8080/webjar-swagger-ui-demo/webjars/bootstrap/2.2.1/css/bootstrap.min.css`   
 3. Transitive jquery: `http://localhost:8080/webjar-swagger-ui-demo/webjars/jquery/1.8.2/jquery.js`
 
